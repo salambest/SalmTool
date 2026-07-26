@@ -1,0 +1,20 @@
+# Local development / desktop testing dependencies.
+# For the actual Android APK build, buildozer.spec's [app] requirements=
+# line is authoritative - python-for-android manages its own recipes.
+
+kivy==2.3.0
+kivymd==1.2.0
+pillow
+psutil
+requests
+plyer
+fpdf2
+
+# pyjnius only builds/works where a JDK is available (and is only actually
+# used on-device on Android). Safe to skip on desktop if it fails to build.
+pyjnius
+
+# Optional, more accurate APK manifest parsing (needs lxml under the hood).
+# apk_analyzer.py falls back to a built-in heuristic parser if this isn't
+# installed, so it is not required.
+# pyaxmlparser

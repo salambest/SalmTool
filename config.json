@@ -1,0 +1,13 @@
+{
+  "app_name": "SalmTool Ultimate",
+  "version": "1.0.0",
+  "ai_helper": {
+    "provider": "anthropic",
+    "api_key": "",
+    "model": "claude-sonnet-4-6"
+  },
+  "settings": {
+    "dark_mode": true,
+    "reports_dir": "reports"
+  }
+}

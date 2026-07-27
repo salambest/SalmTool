@@ -19,8 +19,8 @@ version = 1.0.0
 # pyaxmlparser is missing, so the app stays fully functional either way.
 # Uncomment the line below if your build environment supports it.
 # ---------------------------------------------------------------------------
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,psutil,requests,pyjnius,plyer,fpdf2
-# requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,psutil,requests,pyjnius,plyer,fpdf2,pyaxmlparser
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,requests,plyer,fpdf2
+# requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,requests,plyer,fpdf2
 
 icon.filename = %(source.dir)s/icon.png
 
